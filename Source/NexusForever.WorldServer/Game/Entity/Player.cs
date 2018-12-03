@@ -46,6 +46,7 @@ namespace NexusForever.WorldServer.Game.Entity
         public Inventory Inventory { get; }
         public CurrencyManager CurrencyManager { get; }
         public WorldSession Session { get; }
+        public VendorInfo SelectedVendorInfo { get; set; }
 
         private double timeToSave = SaveDuration;
         private PlayerSaveMask saveMask;
